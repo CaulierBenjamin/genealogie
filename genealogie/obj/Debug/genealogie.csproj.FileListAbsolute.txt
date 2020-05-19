@@ -1,0 +1,6 @@
+C:\Users\benjamin\Desktop\temporarie\genealogie\genealogie\obj\Debug\genealogie.csprojAssemblyReference.cache
+C:\Users\benjamin\Desktop\temporarie\genealogie\genealogie\obj\Debug\genealogie.csproj.CoreCompileInputs.cache
+C:\Users\benjamin\Desktop\temporarie\genealogie\genealogie\bin\Debug\genealogie.exe
+C:\Users\benjamin\Desktop\temporarie\genealogie\genealogie\bin\Debug\genealogie.pdb
+C:\Users\benjamin\Desktop\temporarie\genealogie\genealogie\obj\Debug\genealogie.exe
+C:\Users\benjamin\Desktop\temporarie\genealogie\genealogie\obj\Debug\genealogie.pdb
