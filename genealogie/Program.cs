@@ -28,7 +28,8 @@ namespace genealogie
             //Console.WriteLine(n2.AfficherParents());
             //Console.WriteLine(n1.Genealogie());
             //enfants
-            /*n3.DefinirEnfants(n1);
+            /*
+            n3.DefinirEnfants(n1);
             n2.DefinirEnfants(n1);
             
             Console.WriteLine(n2.AfficherEnfants());
@@ -36,6 +37,11 @@ namespace genealogie
             Console.WriteLine(n4.AfficherEnfants());
             Console.WriteLine(n1.AfficherAncetre());
             */
+            //Union
+            Union u1 = new Union(n3,n2,new DateTime(1950));
+            u1.UnionEnfants(n1);
+            Console.WriteLine(n2.AfficherEnfants());
+            
             Console.ReadKey();
         }
     }

@@ -65,7 +65,26 @@ namespace genealogie
 
         public void DefinirEnfants(Humain pEnfants)
         {
-            LesEnfants.Add(pEnfants);
+            bool isEmpty = !LesEnfants.Any();
+            if (!isEmpty)
+            {
+                
+                foreach (Humain enfant in LesEnfants)
+                {
+                    if (enfant == pEnfants)
+                    {
+                        Console.WriteLine("L'enfants est deja enregistrer");
+                        return;
+                    }
+                    LesEnfants.Add(pEnfants);
+                }
+            }
+            else
+            {
+                LesEnfants.Add(pEnfants);
+            }
+            
+            
         }
 
         public string AfficherEnfants()
@@ -74,6 +93,7 @@ namespace genealogie
             bool isEmpty = !LesEnfants.Any();
             if (!isEmpty)
             {
+                
                 foreach (Humain enfant in LesEnfants)
                 {
                     reponse = reponse + enfant.AfficherInfo();
